@@ -16,12 +16,25 @@
       href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap"
       rel="stylesheet"
     />
-
     <title>Volodymyr Styk</title>
   </head>
   <body>
     <!-- ===== Left Side ===== -->
-    <section class="left-side">
+    <nav class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div >
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#header">Main</a>
+        <a href="#contact-info">Contact Information</a>
+        <a href="#about-me">About me</a>
+        <a href="#my-skill">My skills</a>
+        <a href="#work-exp">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#lic-and-cert">Licenses & certifications</a>
+        <a href="#lang">Languages</a>
+      </div>
+    </nav>
+    <section class="left-side" id="header">
       <section class="header-avatar">
         <figure>
           <img
@@ -33,13 +46,20 @@
           />
         </figure>
       </section>
+
       <section class="contact-info">
         <h2 id="contact-info">Contact Me:</h2>
         <ul>
           <li>Location: Lviv</li>
           <li>Phone: +380977088243</li>
-          <li>E-mail: volodymyr.styk@gmail.com</li>
-          <li>LinkedIn: https://www.linkedin.com/in/volodymyr-styk/</li>
+          <li>E-mail:</li>
+          <li>volodymyr.styk@gmail.com</li>
+          <li class="link">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/volodymyr-styk/"
+              >Volodymyr Styk</a
+            >
+          </li>
         </ul>
       </section>
       <section class="my-skill">
@@ -88,7 +108,7 @@
           </li>
         </ul>
       </section>
-      <footer class="follow-me link">
+      <section class="follow-me link">
         <h2>Follow Me:</h2>
         <ul>
           <li>
@@ -99,16 +119,16 @@
           <li>
             <a href="https://www.linkedin.com/in/volodymyr-styk/">LinkedIn</a>
           </li>
-          <li><a href="volodymyr.styk@gmail.com">E-mail</a></li>
+          <li><a href="https://github.com/VolodymyrStyk">GitHub</a></li>
         </ul>
-      </footer>
+      </section>
     </section>
     <!-- ===== /Left Side ===== -->
     <!-- ===== Right Side ===== -->
     <section class="right-side">
       <header>
         <h1>VOLODYMYR STYK</h1>
-        <p>(Web Developer)</p>
+        <p><strong>(Web Developer)</strong></p>
       </header>
       <article class="about-me">
         <h2 id="about-me">About me:</h2>
@@ -191,5 +211,6 @@
         </ul>
       </section>
     </section>
+    <script src="/script/script.js"></script>
   </body>
 </html>
