@@ -16,49 +16,56 @@
 @media (min-width: 1200px) {
   ...;
 }
-.contaier {
+/* General */
+html {
+  background-color: #c0c1c3;
+  font-family: "Montserrat", sans-serif;
+}
+body {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
-/* HEADER */
-
-header {
+.right-side,
+.left-side {
   display: flex;
   flex-direction: column;
-  background-color: blanchedalmond;
-  position: sticky;
-  top: 0px;
-  height: 185px;
+  padding: 2%;
 }
-header div,
-header p,
-header nav,
-header h1,
-header ul {
-  margin: 0;
-}
-header h1,
-header p {
-  text-align: center;
-}
-.navigation ul,
-footer ul {
-  display: flex;
-  flex-direction: row;
-  border: 2px solid black;
-  justify-content: space-evenly;
-}
-.navigation li,
-footer li {
-  list-style-type: none;
-}
-.header-ava {
-  display: flex;
-  justify-content: center;
+h2 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
 }
 .round {
   border-radius: 100px; /* Радиус скругления */
-  border: 3px solid green; /* Параметры рамки */
-  box-shadow: 0 0 7px #666; /* Параметры тени */
+  box-shadow: 0 0 0 3px rgb(53, 116, 121), 0 0 13px #333; /* Параметры теней */
+}
+.link a {
+  text-decoration: none;
+  color: red;
+}
+
+/* =====  / General */
+/* Left Side */
+.left-side {
+  background-color: #3b3b3d;
+  color: #ffffff;
+}
+.left-side h2 {
+  border-bottom: 2px solid #ffffff;
+}
+.left-side .link a {
+  color: #ffffff;
+}
+/* Right Side */
+.right-side {
+  background-color: #ffffff;
+  color: #3b3b3d;
+}
+.right-side h2 {
+  border-bottom: 2px solid #3b3b3d;
+}
+.right-side .link a {
+  color: #3b3b3d;
 }
