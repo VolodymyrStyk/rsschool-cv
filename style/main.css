@@ -1,0 +1,132 @@
+@media screen and (max-width: 576px) {
+  body {
+    flex-direction: column;
+  }
+}
+/* General */
+html {
+  background-color: #c0c1c3;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+/* Navigation */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+.dropdown {
+  position: relative;
+  position: fixed;
+  top: 0;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+.show {
+  display: block;
+}
+/* / Navigation */
+.right-side,
+.left-side {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.round {
+  border-radius: 100px; /* Радиус скругления */
+  box-shadow: 0 0 0 3px rgb(53, 116, 121), 0 0 13px #333; /* Параметры теней */
+}
+.link a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: rgb(47, 34, 226);
+}
+section > ul > li {
+  list-style-type: none;
+}
+.contact-info li,
+.follow-me li {
+  padding-left: 24px;
+}
+/* =====  / General */
+/* Left Side */
+.left-side {
+  background-color: #3b3b3d;
+  color: #ffffff;
+}
+.left-side h2 {
+  border-bottom: 2px solid #ffffff;
+}
+.left-side .link a {
+  color: #ffffff;
+}
+
+.contact-info li:first-child {
+  background: url(/img/location-white.png) no-repeat 0 50%;
+}
+.contact-info li:nth-child(2) {
+  background: url(/img/phone-small.png) no-repeat 0 50%;
+}
+.contact-info li:nth-child(3) {
+  background: url(/img/email-smal.png) no-repeat 0 50%;
+}
+.contact-info li:last-child {
+  background: url(/img/linkidn-small.png) no-repeat 0 50%;
+}
+ul {
+  padding-left: 1em;
+}
+.follow-me li:first-child {
+  background: url(/img/fb-smal.png) no-repeat 0 50%;
+}
+.follow-me li:nth-child(2) {
+  background: url(/img/linkidn-small.png) no-repeat 0 50%;
+}
+.follow-me li:last-child {
+  background: url(/img/github-sm.png) no-repeat 0 50%;
+}
+/* Right Side */
+.right-side {
+  background-color: #ffffff;
+  color: #3b3b3d;
+}
+.right-side h2 {
+  border-bottom: 2px solid #3b3b3d;
+}
+.right-side .link a {
+  color: #3b3b3d;
+}
