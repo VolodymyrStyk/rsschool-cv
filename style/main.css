@@ -14,7 +14,36 @@ body {
   margin-right: auto;
   display: flex;
 }
-/* Navigation */
+.right-side,
+.left-side {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.round {
+  border-radius: 100px;
+  box-shadow: 0 0 0 3px rgb(53, 116, 121), 0 0 13px #333;
+}
+.link a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: rgb(47, 34, 226);
+}
+section > ul > li {
+  list-style-type: none;
+}
+.contact-info li,
+.follow-me li {
+  padding-left: 24px;
+}
+/* =====  /General */
+/* ===Navigation=== */
 .dropbtn {
   background-color: #3498db;
   color: white;
@@ -53,36 +82,7 @@ body {
 .show {
   display: block;
 }
-/* / Navigation */
-.right-side,
-.left-side {
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-}
-h2 {
-  text-transform: uppercase;
-  font-family: "Lato", sans-serif;
-}
-.round {
-  border-radius: 100px; /* Радиус скругления */
-  box-shadow: 0 0 0 3px rgb(53, 116, 121), 0 0 13px #333; /* Параметры теней */
-}
-.link a {
-  text-decoration: none;
-  color: red;
-}
-a:hover {
-  color: rgb(47, 34, 226);
-}
-section > ul > li {
-  list-style-type: none;
-}
-.contact-info li,
-.follow-me li {
-  padding-left: 24px;
-}
-/* =====  / General */
+/* ===/Navigation=== */
 /* Left Side */
 .left-side {
   background-color: #3b3b3d;
@@ -94,7 +94,6 @@ section > ul > li {
 .left-side .link a {
   color: #ffffff;
 }
-
 .contact-info li:first-child {
   background: url(../img/location-white.png) no-repeat 0 50%;
 }
@@ -119,7 +118,8 @@ ul {
 .follow-me li:last-child {
   background: url(../img/github-sm.png) no-repeat 0 50%;
 }
-/* Right Side */
+/* ===/Left Side=== */
+/* ===Right Side=== */
 .right-side {
   background-color: #ffffff;
   color: #3b3b3d;
@@ -130,3 +130,4 @@ ul {
 .right-side .link a {
   color: #3b3b3d;
 }
+/* ===/Right Side=== */
