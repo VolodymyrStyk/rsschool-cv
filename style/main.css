@@ -96,16 +96,16 @@ section > ul > li {
 }
 
 .contact-info li:first-child {
-  background: url(/img/location-white.png) no-repeat 0 50%;
+  background: url(/rsschool-cv/img/location-white.png) no-repeat 0 50%;
 }
 .contact-info li:nth-child(2) {
-  background: url(/img/phone-small.png) no-repeat 0 50%;
+  background: url(/rsschool-cv/img/phone-small.png) no-repeat 0 50%;
 }
 .contact-info li:nth-child(3) {
-  background: url(/img/email-smal.png) no-repeat 0 50%;
+  background: url(/rsschool-cv/img/email-smal.png) no-repeat 0 50%;
 }
 .contact-info li:last-child {
-  background: url(/img/linkidn-small.png) no-repeat 0 50%;
+  background: url(/rsschool-cv/img/linkidn-small.png) no-repeat 0 50%;
 }
 ul {
   padding-left: 1em;
