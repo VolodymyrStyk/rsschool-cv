@@ -96,28 +96,28 @@ section > ul > li {
 }
 
 .contact-info li:first-child {
-  background: url(/rsschool-cv/img/location-white.png) no-repeat 0 50%;
+  background: url(../img/location-white.png) no-repeat 0 50%;
 }
 .contact-info li:nth-child(2) {
-  background: url(/rsschool-cv/img/phone-small.png) no-repeat 0 50%;
+  background: url(../img/phone-small.png) no-repeat 0 50%;
 }
 .contact-info li:nth-child(3) {
-  background: url(/rsschool-cv/img/email-smal.png) no-repeat 0 50%;
+  background: url(../img/email-smal.png) no-repeat 0 50%;
 }
 .contact-info li:last-child {
-  background: url(/rsschool-cv/img/linkidn-small.png) no-repeat 0 50%;
+  background: url(../img/linkidn-small.png) no-repeat 0 50%;
 }
 ul {
   padding-left: 1em;
 }
 .follow-me li:first-child {
-  background: url(/img/fb-smal.png) no-repeat 0 50%;
+  background: url(../img/fb-smal.png) no-repeat 0 50%;
 }
 .follow-me li:nth-child(2) {
-  background: url(/img/linkidn-small.png) no-repeat 0 50%;
+  background: url(../img/linkidn-small.png) no-repeat 0 50%;
 }
 .follow-me li:last-child {
-  background: url(/img/github-sm.png) no-repeat 0 50%;
+  background: url(../img/github-sm.png) no-repeat 0 50%;
 }
 /* Right Side */
 .right-side {
