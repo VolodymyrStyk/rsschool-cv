@@ -138,4 +138,7 @@ ul {
   color: #7210ac;
   font-weight: 800;
 }
+.education li {
+  list-style: circle;
+}
 /* ===/Right Side=== */

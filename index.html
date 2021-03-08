@@ -22,7 +22,6 @@
     <!-- ===== Left Side ===== -->
     <nav class="dropdown">
       <button onclick="myFunction()" class="dropbtn">Menu</button>
-      <div >
       <div id="myDropdown" class="dropdown-content">
         <a href="#header">Main</a>
         <a href="#contact-info">Contact Information</a>
@@ -40,8 +39,8 @@
           <img
             src="img/ava.jpg"
             alt="foto Volodymyr Styk"
-            width="200px"
-            height="200px"
+            width="200"
+            height="200"
             class="round"
           />
         </figure>
@@ -178,8 +177,8 @@
       </section>
       <section class="education">
         <h2 id="education">Education:</h2>
+        <h3>National University "The Lviv Polytechnic"</h3>
         <ul>
-          <h3>National University "The Lviv Polytechnic"</h3>
           <li>
             Master's degree (2015 – 2016) Department of Telecommunications
             Specialty: “Information Communication Networks”.
@@ -193,11 +192,32 @@
       <section class="lic-and-cert link">
         <h2 id="lic-and-cert">Licenses & certifications:</h2>
         <ul>
-          <li><a href="https://www.freecodecamp.org/certification/fcc05d35dd2-bf0c-4522-adca-5d7e6fa75b40/responsive-web-design">FreeCodeCamp (Resnosive Web Design)</a></li>
-          <li><a href="https://htmlacademy.ru/profile/id127771">HTMLACADEMY</a></li>
-          <li><a href="https://cert.openedu.ru/downloads/c9068ecce8794715a6de06151ab77a47/Certificate.pdf">OpenEdu (Web-Programing)</a></li>
-          <li><a href="https://courses.prometheus.org.ua:18090/downloads/033ef90a32384dbbb1804ccf9bb12447/Certificate.pdf">Prometheus LITS (Web UI)</a></li>
-          <li><a href="https://www.duolingo.com/Volodymyr_Styk">English Duolingo</a></li>
+          <li>
+            <a
+              href="https://www.freecodecamp.org/certification/fcc05d35dd2-bf0c-4522-adca-5d7e6fa75b40/responsive-web-design"
+              >FreeCodeCamp (Resnosive Web Design)</a
+            >
+          </li>
+          <li>
+            <a href="https://htmlacademy.ru/profile/id127771">HTMLACADEMY</a>
+          </li>
+          <li>
+            <a
+              href="https://cert.openedu.ru/downloads/c9068ecce8794715a6de06151ab77a47/Certificate.pdf"
+              >OpenEdu (Web-Programing)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://courses.prometheus.org.ua:18090/downloads/033ef90a32384dbbb1804ccf9bb12447/Certificate.pdf"
+              >Prometheus LITS (Web UI)</a
+            >
+          </li>
+          <li>
+            <a href="https://www.duolingo.com/Volodymyr_Styk"
+              >English Duolingo</a
+            >
+          </li>
         </ul>
       </section>
       <section class="lang">
@@ -213,21 +233,21 @@
     <!-- ===== /Right Side ===== -->
     <script>
       function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function (event) {
-  if (!event.target.matches(".dropbtn")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
+        document.getElementById("myDropdown").classList.toggle("show");
       }
-    }
-  }
-};
-</script>
+
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
   </body>
 </html>
