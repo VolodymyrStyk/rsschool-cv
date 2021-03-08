@@ -94,6 +94,10 @@ section > ul > li {
 .left-side .link a {
   color: #ffffff;
 }
+.left-side .link a:hover {
+  color: #487ec4;
+  font-weight: 800;
+}
 .contact-info li:first-child {
   background: url(../img/location-white.png) no-repeat 0 50%;
 }
@@ -129,5 +133,9 @@ ul {
 }
 .right-side .link a {
   color: #3b3b3d;
+}
+.right-side .link a:hover {
+  color: #7210ac;
+  font-weight: 800;
 }
 /* ===/Right Side=== */
