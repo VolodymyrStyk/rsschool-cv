@@ -121,6 +121,9 @@ section > ul > li {
 ul {
   padding-left: 1em;
 }
+.follow-me li {
+  list-style: none;
+}
 .follow-me li:first-child {
   background: url(../img/fb-smal.png) no-repeat 0 50%;
 }
