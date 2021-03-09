@@ -19,6 +19,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: row;
 }
 .right-side,
 .left-side {
