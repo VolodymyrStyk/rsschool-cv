@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-  body {
+  .container {
     flex-direction: column;
   }
 
@@ -9,11 +9,12 @@
   }
 }
 /* General */
-html {
+html,
+body {
   background-color: #c0c1c3;
   font-family: "Montserrat", sans-serif;
 }
-body {
+.container {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
