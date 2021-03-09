@@ -47,6 +47,9 @@ section > ul > li {
 .follow-me li {
   padding-left: 24px;
 }
+.my-info {
+  display: none;
+}
 /* =====  /General */
 /* ===Navigation=== */
 .dropbtn {
