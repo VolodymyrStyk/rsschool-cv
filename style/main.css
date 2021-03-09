@@ -15,10 +15,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 #container {
+  display: flex;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   flex-direction: row;
 }
 .right-side,
